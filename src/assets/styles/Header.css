@@ -1,5 +1,50 @@
-.contentHeader{
-    height: 60px;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.contentHeader {
+    /* height: 92px; */
 
     background-color: #6984ff;
+
+    padding: 25px 280px;
+}
+
+.logo {
+    width: 35px;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+    height: 100%;
+    
+}
+
+.headerLinks {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.customLink {
+    color: #0156FF;
+
+    border: 2px solid #0156FF;
+    border-radius: 50px;
+
+    padding: 10px 30px;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
 }
