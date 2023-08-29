@@ -14,8 +14,8 @@ function App() {
     <Router>
         <Header />
         <Routes>
-          <Route path="/catalog" element={<Catalog />} />
-          <Route path="/" element={<Navigate replace to="/catalog" />} />
+          <Route path="/catalog/:page" element={<Catalog />} />
+          <Route path="/" element={<Navigate replace to="/catalog/1" />} />
           {/* <Route path="/catalog/:id" element={<ProductCard />} />   */}
           <Route path="/shoppingCart" element={<ShoppingCart />} /> 
           <Route path='*' element={<NotFound/>} />
